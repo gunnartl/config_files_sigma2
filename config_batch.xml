@@ -646,8 +646,7 @@
       <arg flag="-p" name="$JOB_QUEUE"/> 
       <arg flag="--account" name="$PROJECT"/> 
     </submit_args> 
-    <directives> 
-     <directive> --mem-per-cpu=4G</directive> 
+    <directives>  
      <directive> --ntasks={{ total_tasks }}</directive> 
      <directive> --export=ALL</directive> 
      <directive> --switches=1</directive>
